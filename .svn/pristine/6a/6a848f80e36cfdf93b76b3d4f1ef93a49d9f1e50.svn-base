@@ -1,0 +1,6 @@
+/*course info*/
+
+.favorite-link-blocks{
+    background-color: rgb(52, 140, 184);
+    border-color: rgb(37, 59, 100);
+}
