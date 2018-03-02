@@ -1,0 +1,94 @@
+.block_course_menu .menulist{
+    font-size: 20px;
+    text-align:left;
+    font-weight:bold;
+    font-family:"微軟正黑體";
+    line-height: 40px;
+    color: #fff;
+} 
+.block_course_menu .mainmenu{
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 0 0 2px;
+}
+.block_course_menu .menulist li.submenu{
+    display: none;
+}
+.block_course_menu .menulist ul{
+    display: inline-block;
+}
+.block_course_menu .menulist li{
+    font-family:"微軟正黑體";
+    text-align:left;
+    font-size:20px;
+    list-style: none;
+    font-weight:bold;
+    line-height:40px;
+    margin: 0 0 2px;
+}
+.block_course_menu .menulist li a{
+    display: block;
+    color:#fff !important;
+    padding: 0px 15px 0px 20px;
+    text-decoration: none;
+}
+.block_course_menu .menulist li a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+.block_course_menu .menulist li:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+.course-content ul.resources {margin:0;}
+.course-content ul.resources li.section {list-style: none;margin:0 0 5px 0;padding:0;}
+.course-content ul.resources li.section .content {margin:0 20px;}
+.course-content ul.resources li.section .left {float:left;}
+.course-content ul.resources li.section .right {float:right;}
+.course-content ul.resources li.section .left,
+.course-content ul.resources li.section .right {width:40px;text-align:center;padding: 6px 0;}
+.course-content ul.resources li.section .right img.icon { padding: 0 0 4px 0;}
+.course-content ul.resources li.section .left .section-handle img.icon { padding:0; vertical-align: baseline; }
+
+.course-content ul.surveys {margin:0;}
+.course-content ul.surveys li.section {list-style: none;margin:0 0 5px 0;padding:0;}
+.course-content ul.surveys li.section .content {margin:0 20px;}
+.course-content ul.surveys li.section .left {float:left;}
+.course-content ul.surveys li.section .right {float:right;}
+.course-content ul.surveys li.section .left,
+.course-content ul.surveys li.section .right {width:40px;text-align:center;padding: 6px 0;}
+.course-content ul.surveys li.section .right img.icon { padding: 0 0 4px 0;}
+.course-content ul.surveys li.section .left .section-handle img.icon { padding:0; vertical-align: baseline; }
+
+.course-content ul.quizzes {margin:0;}
+.course-content ul.quizzes li.section {list-style: none;margin:0 0 5px 0;padding:0;}
+.course-content ul.quizzes li.section .content {margin:0 20px;}
+.course-content ul.quizzes li.section .left {float:left;}
+.course-content ul.quizzes li.section .right {float:right;}
+.course-content ul.quizzes li.section .left,
+.course-content ul.quizzes li.section .right {width:40px;text-align:center;padding: 6px 0;}
+.course-content ul.quizzes li.section .right img.icon { padding: 0 0 4px 0;}
+.course-content ul.quizzes li.section .left .section-handle img.icon { padding:0; vertical-align: baseline; }
+
+.course-content ul.videos {margin:0;}
+.course-content ul.videos li.section {list-style: none;margin:0 0 5px 0;padding:0;}
+.course-content ul.videos li.section .content {margin:0 20px;}
+.course-content ul.videos li.section .left {float:left;}
+.course-content ul.videos li.section .right {float:right;}
+.course-content ul.videos li.section .left,
+.course-content ul.videos li.section .right {width:40px;text-align:center;padding: 6px 0;}
+.course-content ul.videos li.section .right img.icon { padding: 0 0 4px 0;}
+.course-content ul.videos li.section .left .section-handle img.icon { padding:0; vertical-align: baseline; }
+
+.course-content ul.forums {margin:0;}
+.course-content ul.forums li.section {list-style: none;margin:0 0 5px 0;padding:0;}
+.course-content ul.forums li.section .content {margin:0 20px;}
+.course-content ul.forums li.section .left {float:left;}
+.course-content ul.forums li.section .right {float:right;}
+.course-content ul.forums li.section .left,
+.course-content ul.forums li.section .right {width:40px;text-align:center;padding: 6px 0;}
+.course-content ul.forums li.section .right img.icon { padding: 0 0 4px 0;}
+.course-content ul.forums li.section .left .section-handle img.icon { padding:0; vertical-align: baseline; }

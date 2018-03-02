@@ -1,0 +1,53 @@
+<?php
+/**
+ * Version details.
+ *
+ * @package    blocks
+ * @subpackage course_menu
+ * @copyright  2017 Click-AP <mary@click-ap.com>
+ * @license    http://www.click-ap.com/copyleft/gpl.html GNU GPL v3 or later
+ */
+$string['course_menu:addinstance'] = '新增一個課程選單區塊';
+$string['pluginname'] = '課程選單';
+//format
+$string['activitytype'] = '活動型別';
+$string['configresourcetypes'] = '選擇頁面內可建置的模組活動.';
+$string['intro'] = '描述';
+$string['discussions'] = '議題';
+$string['duedate'] = '期限';
+$string['grade'] = '我的成績';
+$string['eventinformationviewed'] = '課程資訊頁已檢視';
+$string['course_news'] = '公布欄';
+$string['color_student'] = '學生課程選單顏色';
+$string['color_student_help'] = '選擇學生課程選單顏色';
+$string['color_teacher'] = '教師課程選單顏色';
+$string['color_teacher_help'] = '選擇教師課程選單顏色';
+$string['color_tutor'] = '助教課程選單顏色';
+$string['color_tutor_help'] = '選擇助教課程選單顏色';
+
+$string['course_info'] = '課程資訊';
+$string['course_section'] = '課程單元';
+$string['course_enrolment'] = '學生名單';
+$string['course_news'] = '最新消息';
+$string['course_frontpage'] = '課程首頁';
+$string['course_grade'] = '課程成績';
+//
+$string['course_videos'] = '影音教材';
+$string['course_resources'] = '檔案教材';
+$string['course_quizzes'] = '測驗與認證';
+$string['course_forums'] = '討論區';
+$string['course_surveys'] = '問卷教材';//secion
+$string['editallsection'] = '編修所有單元';
+$string['editsections_help'] = '
+<p>1.刪除單元:勾選欲刪除的單元後，按下刪除鈕.</p>
+<p>2.新增單元</p>
+<p>(1)按下「新增單元」鈕，將在最後一個單元之後新增一個單元.</p>
+<p>(2)勾選特定單元後在按下「新增單元」鈕，將在勾選的單元之後新增一個單元.</p>
+<p>3.儲存變更:修改單元名稱後，須按下儲存鈕進行變更.</p>
+<p>4.取消變更:取消單元名稱修改.</p>';
+$string['sectionnumber'] = '第{$a}單元';
+$string['section-delete'] = '刪除單元';
+$string['section-save'] = '儲存變更';
+$string['section-add'] = '新增單元';
+$string['section-deleteconfirm'] = '您確定要刪除此單元嗎?';
+$string['section-cancel'] = '取消變更';
