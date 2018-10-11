@@ -27,7 +27,8 @@
     float: right;
 }
 .coursebox .content .action{
-    width : 20% !important;
+    /*width : 20% !important;*/
+    width : auto;
     float: right;
     margin: 2px 1px !important;
     font-size: 14px;

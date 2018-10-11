@@ -1,0 +1,80 @@
+/*
+ * @package    block_mytoc(My Table Of Content)
+ * @author     Maria Tan <maria@click-ap.com>
+ * @copyright  2018 Click-AP {@link https://www.click-ap.com}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+@media (max-width:767px) {
+    .coursebox .mytoc-cimbox {
+        max-height: 70px;
+    }
+    .coursebox .content .mytoc-status{
+        max-height: 70px;
+    }
+    .coursebox .content .mytoc-action{
+        max-height: 70px;
+    }
+    .coursebox .content .mytoc-action .favorite{
+        margin-top: unset !important;
+    }
+}
+
+.coursebox .mytoc-cimbox {
+    height: 100px;
+    position: relative;
+    margin-right: -1px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.coursebox .content .mytoc-status{
+    width : 50%;
+    float: left;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 5%;
+    margin: 1px 2px 1px 2px;
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+}
+
+@media (min-width: 1200px) {
+    .coursebox .content .mytoc-status{
+        line-height: 2.5em;
+    }
+}
+
+.coursebox .content .mytoc-status .title{
+    font-size: 12px;
+    margin: 0 2px 0 2px;
+}
+
+.coursebox .content .mytoc-action{
+    width : 40%;
+    float: right;
+    height: 100px;
+    border-radius: 5%;
+    /*margin: 5px 2px 5px 2px;*/
+    font-size: 14px;
+    text-align: center;
+}
+
+.coursebox .content .mytoc-action .favorite{
+    margin-top: 15px;
+}
+
+.coursebox .content .mytoc-action .button, input[type="submit"]{
+    /*padding: 5px 5px 5px 5px !important;*/
+    margin: 10px 0 10px 0 !important;
+    box-shadow: unset !important;
+}
+
+.coursebox .content .mytoc-summary{
+    font-size: 80%;
+}
+.coursebox .span7 h4{
+    margin-top: 10px;
+}
