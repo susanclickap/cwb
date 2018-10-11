@@ -1,17 +1,17 @@
 <?php
 /**
- * My overview block en lang
+ * My Table of Content block en lang
  *
  * @package    block_mytoc(My Table Of Content)
  * @author     Maria Tan <maria@click-ap.com>
  * @copyright  2018 Click-AP {@link https://www.click-ap.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['mytoc:addinstance'] = 'Add a new course overview block';
-$string['mytoc:myaddinstance'] = 'Add a new course overview block to Dashboard';
+$string['mytoc:addinstance'] = 'Add a new my toc block';
+$string['mytoc:myaddinstance'] = 'Add a new my toc block to Dashboard';
 $string['defaulttab'] = 'Default tab';
-$string['defaulttab_desc'] = 'The tab that will be displayed when a user first views their course overview.';
-$string['pluginname'] = 'Course overview';
+$string['defaulttab_desc'] = 'The tab that will be displayed when a user first views their my toc.';
+$string['pluginname'] = 'My TOC';
 $string['teachcourses'] = 'Teach Courses';
 $string['enrolcourses'] = 'Enrol Courses';
 $string['programs'] = 'Programs';
