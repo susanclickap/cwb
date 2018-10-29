@@ -122,4 +122,6 @@ $string['supportmaintenance'] = 'Starting from Moodle 3.3, Oauth2 will be suppor
 Please understand you are using a third party plugin to manage your users authentication. When problems occurs with an authentication plugin they are never minor.';
 $string['unknownfirstname'] = 'Unknown Firstname';
 $string['unknownlastname'] = 'Unknown Lastname';
+$string['googleproxyport'] = 'Proxy Port';
+$string['googleproxy'] = 'Proxy IP Address';
 
