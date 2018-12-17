@@ -288,8 +288,8 @@ $string['configproxypassword'] = 'Password needed to access internet through pro
 $string['configproxyport'] = 'If this server needs to use a proxy computer, then provide the proxy port here.';
 $string['configproxytype'] = 'Type of web proxy (PHP5 and cURL extension required for SOCKS5 support).';
 $string['configproxyuser'] = 'Username needed to access internet through proxy if required, empty if none (PHP cURL extension required).';
-$string['configrecaptchaprivatekey'] = 'String of characters (private key) used to communicate between your Moodle server and the recaptcha server. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
-$string['configrecaptchapublickey'] = 'String of characters (public key) used to display the reCAPTCHA element in the signup form. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
+$string['configrecaptchaprivatekey'] = 'String of characters (secret key) used to communicate between your Moodle server and the recaptcha server. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
+$string['configrecaptchapublickey'] = 'String of characters (site key) used to display the reCAPTCHA element in the signup form. ReCAPTCHA keys can be obtained from <a target="_blank" href="https://www.google.com/recaptcha">Google reCAPTCHA</a>.';
 $string['configrequestcategoryselection'] = 'Allow the selection of a category when requesting a course.';
 $string['configrequestedstudentname'] = 'Word for student used in requested courses';
 $string['configrequestedstudentsname'] = 'Word for students used in requested courses';
@@ -982,6 +982,7 @@ $string['sitepolicy_help'] = 'If you have a site policy that all registered user
 $string['sitepolicyguest'] = 'Site policy URL for guests';
 $string['sitepolicyguest_help'] = 'If you have a site policy that all guests must see and agree to before using this site, then specify the URL to it here, otherwise leave this field blank. This setting can contain any public URL. Note: access of not-logged-in users may be prevented with forcelogin setting.';
 $string['sitesectionhelp'] = 'If selected, a topic section will be displayed on the site\'s front page.';
+$string['sixtyfourbitswarning'] = 'It has been detected that your site is not using a 64-bit PHP version. It is recommended that you upgrade your site to ensure future compatibility.';
 $string['slasharguments'] = 'Use slash arguments';
 $string['slashargumentswarning'] = 'It is recommended that the use of slash arguments is enabled. In future it will be required. For more details, see the documentation <a href="https://docs.moodle.org/en/admin/environment/slasharguments">Using slash arguments</a>.';
 $string['smartpix'] = 'Smart pix search';
@@ -1090,6 +1091,7 @@ $string['unsupporteddbtablerowformat'] = 'Your database has tables using Antelop
 $string['unsupportedphpversion7'] = 'PHP version 7 is not supported.';
 $string['unsupportedphpversion71'] = 'PHP version 7.1 is not supported.';
 $string['unsupportedphpversion72'] = 'PHP version 7.2 is not supported.';
+$string['unsupportedphpversion73'] = 'PHP version 7.3 is not supported.';
 $string['unsuspenduser'] = 'Activate user account';
 $string['updateaccounts'] = 'Update existing accounts';
 $string['updatecomponent'] = 'Update component';

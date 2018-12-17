@@ -70,8 +70,8 @@ class format_social extends format_base {
      */
     public function get_default_blocks() {
         return array(
-            BLOCK_POS_LEFT => array(),
-            BLOCK_POS_RIGHT => array('rate_course','news_items')
+            BLOCK_POS_LEFT => array('rate_course','news_items','completionstatus'),
+            BLOCK_POS_RIGHT => array()
         );
     }
 
