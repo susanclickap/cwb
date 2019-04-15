@@ -10,7 +10,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2018092102;
+$plugin->version   = 2019032001;
 $plugin->requires  = 2016052309;
-$plugin->release   = '1.0.1';
+$plugin->release   = '1.0.2';
 $plugin->component = 'block_mytoc';

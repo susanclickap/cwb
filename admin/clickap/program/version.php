@@ -10,7 +10,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2018032100;
+$plugin->version  = 2019032001;
 $plugin->requires = 2011091600;
 $plugin->component = 'clickap_program';
 $plugin->dependencies = array('clickap_base'=>ANY_VERSION);
